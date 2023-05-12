@@ -1,0 +1,45 @@
+{
+  "achievements": {
+    "title": "Achievements",
+    "subtitle": "Honor & Awards Achieved",
+    "icon": "/assets/icons/award.svg",
+    "awards": [
+      {
+        "id": 1,
+        "title": "Nominated",
+        "image": "/assets/images/awards/1.jpg",
+        "description": "International Thriller Writers Award for DBest Noval (These Toxic Things)."
+      },
+      {
+        "id": 2,
+        "title": "Winner",
+        "image": "/assets/images/awards/2.jpg",
+        "description": "International Thriller Writers Award for DBest Noval (These Toxic Things)."
+      },
+      {
+        "id": 3,
+        "title": "Guest of Honor",
+        "image": "/assets/images/awards/3.jpg",
+        "description": "International Thriller Writers Award for DBest Noval (These Toxic Things)."
+      },
+      {
+        "id": 4,
+        "title": "Finalist",
+        "image": "/assets/images/awards/4.jpg",
+        "description": "International Thriller Writers Award for DBest Noval (These Toxic Things)."
+      },
+      {
+        "id": 5,
+        "title": "Winner",
+        "image": "/assets/images/awards/5.jpg",
+        "description": "International Thriller Writers Award for DBest Noval (These Toxic Things)."
+      },
+      {
+        "id": 6,
+        "title": "Nominated",
+        "image": "/assets/images/awards/1.jpg",
+        "description": "International Thriller Writers Award for DBest Noval (These Toxic Things)."
+      }
+    ]
+  }
+}

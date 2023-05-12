@@ -400,3 +400,11 @@ body {
 .waves-block .wave-3 {
   animation-delay: 2s;
 }
+
+.translateEffect1 {
+  transition: all .3s;
+}
+
+.translateEffect1:hover {
+  transform: translateY(-10px);
+}

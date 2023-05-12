@@ -6,6 +6,7 @@ import Chapter from '../chapter'
 import ChapterPreview from '../chapter-preview'
 import Pricing from '../pricing'
 import Author from '../author'
+import Achievement from '../achievements'
 
 const MainPage = ({ header }) => { 
 
@@ -18,6 +19,7 @@ const MainPage = ({ header }) => {
       <ChapterPreview isBg='' />
       <Pricing isBg='yes' />
       <Author isBg='' />
+      <Achievement isBg='yes' />
     </>  
   );
 }
