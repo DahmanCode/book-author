@@ -15,7 +15,7 @@
 .achievement__contnet {
   position: relative;
   overflow: hidden;
-  padding: 30px 10px 10p 0px;
+  /* padding: 30px 10px 10p 0px; */
 }
 
 .achievement__contnet__icon {
