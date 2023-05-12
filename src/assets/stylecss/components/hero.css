@@ -1,0 +1,129 @@
+.hero__padding {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.hero__content {
+    z-index: 9;
+}
+
+@media only screen and (max-width: 767px) {
+    .hero__content {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .hero__content form {
+        display: inline-block;
+    }
+}
+
+.hero__content form input {
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 0px 15px 5px rgba(1, 6, 33, .06);
+    padding: 15px;
+    width: 300px;
+}
+
+.hero__content form input:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .hero__content form input {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .hero__content form input {
+        width: auto;
+    }
+}
+
+.hero__content form button {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+@media screen and (max-width: 380px) {
+    .hero__content form input {
+        width: 100%;
+        border-top-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+    }
+    .hero__content form button {
+        border-top-left-radius: 5px !important;
+        border-bottom-left-radius: 5px !important;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.hero__images {
+    position: relative;
+    margin-left: 60px;
+}
+
+@media only screen and (max-width: 991px) {
+    .hero__images {
+        margin-left: 0;
+    }
+}
+
+.hero__images--badge {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    padding: 10px;
+    background-color: #c27b7f;
+    color: #fff;
+    top: 69.5%;
+    right: 71.5%;
+    text-align: center;
+    box-shadow: 0px 30px 40px 0px rgba(1, 6, 33, 0.06);
+    line-height: 22px;
+    animation: upDown 3s linear infinite alternate;
+}
+
+.hero__images--badge span {
+    font-family: "Philosopher", sans-serif;
+}
+
+.hero__images--badge--text1 {
+    display: block;
+    font-size: 26px;
+    font-weight: 700;
+}
+ 
+.hero .button {
+    padding: 10px 20px;
+}
+
+.hero .btn__secondary {
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 330px) {
+    .hero .button {
+        width: 100%;
+    } 
+}
+
+/*  bounce animation */
+
+@keyframes upDown {
+    0% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}

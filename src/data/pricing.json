@@ -1,0 +1,68 @@
+{
+  "pricing": {
+    "title": "Pricing based on their version",
+    "subtitle": "PRICING",
+    "pricingItem": [
+      {
+        "title": "E-Book",
+        "price": "$05",
+        "card": "notAcive",
+        "btnText": "BUY NOW",
+        "feature": [
+          {
+            "item": "Complete Book"
+          },
+          {
+            "item": "PDF and EPUB"
+          },
+          {
+            "item": "Hardcover Book"
+          },
+          {
+            "item": "Access to Downloads"
+          }
+        ]
+      },
+      {
+        "title": "Bundle",
+        "price": "$15",
+        "card": "active",
+        "btnText": "BUY NOW",
+        "feature": [
+          {
+            "item": "Complete Book"
+          },
+          {
+            "item": "PDF and EPUB"
+          },
+          {
+            "item": "Hardcover Book"
+          },
+          {
+            "item": "Access to Downloads"
+          }
+        ]
+      },
+      {
+        "title": "Hardcover",
+        "price": "$10",
+        "card": "notAcive",
+        "btnText": "BUY NOW",
+        "feature": [
+          {
+            "item": "Complete Book"
+          },
+          {
+            "item": "PDF and EPUB"
+          },
+          {
+            "item": "Hardcover Book"
+          },
+          {
+            "item": "Access to Downloads"
+          }
+        ]
+      }
+    ]
+  }
+}

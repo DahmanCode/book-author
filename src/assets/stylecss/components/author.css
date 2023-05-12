@@ -1,0 +1,15 @@
+.author__list {
+  margin-bottom: 0px;
+}
+
+.auther2__image {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  background-color: #c27b7f;
+  border-radius: 5px;
+}
+
+.auther2__image img {
+  border-radius: 5px;
+}

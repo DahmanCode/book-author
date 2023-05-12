@@ -1,0 +1,35 @@
+{
+  "about2": {
+    "title": "Learn about the book writer",
+    "subtitle": "ABOUT AUTHOR",
+    "image": "assets/images/achive.png",
+    "videoURL": "https://www.youtube.com/watch?v=ksImBkJNQt8",
+    "description": "Based on wikipedia, Lorem idsj sdkol consrtion daoral sit shends kssofdjm mdwoammjm skowks.",
+    "userinfo": [
+      {
+        "title": "Name:",
+        "subtitle": "Jacob Thomas"
+      },
+      {
+        "title": "Born:",
+        "subtitle": "05. 16. 1995"
+      },
+      {
+        "title": "Contray:",
+        "subtitle": "UK"
+      },
+      {
+        "title": "Email ID:",
+        "subtitle": "info@wonted.com"
+      },
+      {
+        "title": "Languages:",
+        "subtitle": "English, French"
+      },
+      {
+        "title": "Address:",
+        "subtitle": "Etowah, TN 37331 United State"
+      }
+    ]
+  }
+}

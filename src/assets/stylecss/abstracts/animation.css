@@ -1,0 +1,53 @@
+@keyframes preloader {
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateZ(0);
+  }
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(-50px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes movecircles {
+  0% {
+    margin-left: 1000px;
+  }
+
+  100% {
+    margin-left: -1000px;
+  }
+}
+
+@keyframes waves {
+  0% {
+    transform: scale(.2);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: .9;
+  }
+
+  100% {
+    transform: scale(.9);
+    opacity: 0;
+  }
+}

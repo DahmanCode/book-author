@@ -1,0 +1,215 @@
+.header {
+  position: absolute;
+  width: 100%;
+  transition: border-radius .2s, width .35s ease;
+}
+
+.header.navbar_fixed {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+  box-shadow: 0 2px 0 rgba(1, 6, 33, .06);
+  animation: fadeInDown .5s ease-in-out 0s normal none 1 running;
+}
+
+.header.navbar_fixed .navbar {
+  margin-top: 0px;
+}
+
+.header .navbar {
+  border: 0px;
+  margin-top: 30px;
+  padding: 12px 15px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  /* transition: all .3s; */
+  transition: all .4s ease-in-out;
+}
+
+.header .navbar .navbar-brand {
+  padding: 0;
+}
+
+.header .navbar .navbar-nav li a {
+  color: #2f4858;
+}
+
+.header .navbar .navbar-nav li a:hover,
+.header .navbar .navbar-nav li a.active {
+  color: #c27b7f;
+  background-color: none;
+}
+
+.header .navbar .navbar-nav li a:hover:after,
+.header .navbar .navbar-nav li a.active:after {
+  opacity: 1;
+  bottom: 0;
+}
+
+.header .navbar-expand-lg {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: .4s;
+}
+
+.header .navbar-toggler {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  border-radius: 0px;
+  padding: 0;
+  border: 0px;
+}
+
+.header .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.header .navbar-toggler span {
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 50%;
+  background-color: #2f4858;
+  opacity: 1;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+.header .navbar-toggler span:nth-child(even) {
+  left: 50%;
+  border-radius: 0 9px 9px 0;
+}
+
+.header .navbar-toggler span:nth-child(odd) {
+  left: 0;
+  border-radius: 9px 0 0 9px;
+}
+
+.header .navbar-toggler span:nth-child(1),
+.header .navbar-toggler span:nth-child(6) {
+  transform: rotate(45deg);
+}
+
+.header .navbar-toggler span:nth-child(2),
+.header .navbar-toggler span:nth-child(5) {
+  transform: rotate(-45deg);
+}
+
+.header .navbar-toggler span:nth-child(1) {
+  left: 0;
+  top: 4px;
+}
+
+.header .navbar-toggler span:nth-child(2) {
+  left: calc(50% - 4px);
+  top: 4px;
+}
+
+.header .navbar-toggler span:nth-child(3) {
+  left: 50%;
+  opacity: 0;
+}
+
+.header .navbar-toggler span:nth-child(4) {
+  left: 86%;
+  opacity: 0;
+}
+
+.header .navbar-toggler span:nth-child(5) {
+  left: 0;
+  top: 14px;
+}
+
+.header .navbar-toggler span:nth-child(6) {
+  left: calc(50% - 4px);
+  top: 14px;
+}
+
+.header .navbar-toggler.collapsed span:nth-child(1),
+.header .navbar-toggler.collapsed span:nth-child(2) {
+  top: 2px;
+}
+
+.header .navbar-toggler.collapsed span:nth-child(3),
+.header .navbar-toggler.collapsed span:nth-child(4) {
+  top: 9px;
+}
+
+.header .navbar-toggler.collapsed span:nth-child(5),
+.header .navbar-toggler.collapsed span:nth-child(6) {
+  top: 16px;
+}
+
+.header .navbar-toggler.collapsed span:nth-child(2),
+.header .navbar-toggler.collapsed span:nth-child(5),
+.header .navbar-toggler.collapsed span:nth-child(1),
+.header .navbar-toggler.collapsed span:nth-child(6) {
+  transform: rotate(0deg);
+}
+
+.header .navbar-toggler.collapsed span:nth-child(3) {
+  opacity: 1;
+  left: 0;
+}
+
+.header .navbar-toggler.collapsed span:nth-child(4) {
+  opacity: 1;
+  left: calc(50% - 4px);
+}
+
+.menu > .nav-item {
+  position: relative;
+  transition: all .2s linear;
+  border-bottom: 1px solid transparent;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .menu > .nav-item {
+    margin-left: 0;
+  }
+}
+
+.menu > .nav-item a {
+  padding: 8px 0;
+  display: block;
+  cursor: pointer;
+}
+
+.menu > .nav-item a:after {
+  transition: all .4s cubic-bezier(.3, .1, .58, 1);
+  opacity: 0;
+  content: '';
+  /* width: 100%; */
+  width: 15px;
+  height: 2px;
+  transform: translate(-50%, 0);
+  background-color: #c27b7f;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+}
+
+@media only screen and (max-width: 991px) {
+  .menu > .nav-item a:after {
+    left: 10px;
+    background-color: inherit;
+  }
+}
+
+.menu >.nav-item:hover .nav-link {
+  color: #c27b7f;
+}
+
+@media only screen and (max-width: 991px) {
+  .menu > .nav-item {
+    margin: 0;
+    padding: 0;
+  }
+}
