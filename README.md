@@ -1,4 +1,4 @@
-# React Website Tutorial - Beginner React JS Responsive Book & Author Project
+# React JS Responsive Website - Book & Author Project
 ## [Follow me on Twetter](https://twitter.com/elaammari_) 💙
 ### Build a Book & Author Website in React JS  -  Fully Responsive
 
