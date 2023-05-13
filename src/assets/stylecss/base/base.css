@@ -21,19 +21,12 @@ a {
 
 body {
   box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+.section-wrapper {
   overflow-x: hidden;
 }
-
-@media screen and (max-width: 991px) {
-  html, body {
-    overflow: visible;
-  }
-
-  .section-wrapper {
-    overflow-x: hidden;
-  }
-}
-
 
 .bg-one {
   background-color: #f5ebe6;

@@ -1,6 +1,7 @@
 .pricing__item {
   background-color: #f5ebe6;
   padding: 40px 50px;
+  /* margin: 20px 0; */
   text-align: center;
   transition: .3s;
 }
