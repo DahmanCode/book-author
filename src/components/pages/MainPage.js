@@ -8,6 +8,8 @@ import Pricing from '../pricing'
 import Author from '../author'
 import Achievement from '../achievements'
 import Funfacts from '../fun-fact'
+import Books from '../books'
+import Ctav5 from '../ctav5'
 
 const MainPage = ({ header }) => { 
 
@@ -22,6 +24,8 @@ const MainPage = ({ header }) => {
       <Author isBg='' />
       <Achievement isBg='yes' />
       <Funfacts isBg='' />
+      <Books isBg='yes' />
+      <Ctav5 isBg='' />
     </>  
   );
 }

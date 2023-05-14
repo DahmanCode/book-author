@@ -1,0 +1,49 @@
+.ctav5 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.ctav5::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .5;
+  width: 100%;
+  height: 100%;
+  background-color: #2f4858;
+}
+
+.ctav5__content {
+  z-index: 1;
+}
+
+.ctav5__content h2 {
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.ctav5__content ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.ctav5__content ul li {
+  list-style: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f5ebe6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}

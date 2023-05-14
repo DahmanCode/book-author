@@ -1,0 +1,48 @@
+{
+  "books": {
+    "title": "Latest released books",
+    "subtitle": "BOOKS",
+    "image1": "assets/images/book.png",
+    "image2": "assets/images/book3.png",
+    "image3": "assets/images/book7.png",
+    "image4": "assets/images/book5.png"
+  },
+  "booksv2": {
+    "title": "Books",
+    "subtitle": "Some of recent released books",
+    "booksItem": [
+      {
+        "title": "The King",
+        "image": "assets/images/chapter-preview/cover-1.jpg"
+      },
+      {
+        "title": "Death & Dark",
+        "image": "assets/images/chapter-preview/cover-2.jpg"
+      },
+      {
+        "title": "Return Gen Z",
+        "image": "assets/images/chapter-preview/cover-3.jpg"
+      },
+      {
+        "title": "Sign Souls",
+        "image": "assets/images/chapter-preview/cover-1.jpg"
+      },
+      {
+        "title": "The Mermaid",
+        "image": "assets/images/chapter-preview/cover-2.jpg"
+      },
+      {
+        "title": "Worst Letter",
+        "image": "assets/images/chapter-preview/cover-3.jpg"
+      },
+      {
+        "title": "Drug Lord",
+        "image": "assets/images/chapter-preview/cover-1.jpg"
+      },
+      {
+        "title": "White Birdy",
+        "image": "assets/images/chapter-preview/cover-3.jpg"
+      }
+    ]
+  }
+}
