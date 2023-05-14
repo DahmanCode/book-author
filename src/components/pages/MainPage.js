@@ -10,6 +10,7 @@ import Achievement from '../achievements'
 import Funfacts from '../fun-fact'
 import Books from '../books'
 import Ctav5 from '../ctav5'
+import Testimonial from '../testimonial'
 
 const MainPage = ({ header }) => { 
 
@@ -26,6 +27,7 @@ const MainPage = ({ header }) => {
       <Funfacts isBg='' />
       <Books isBg='yes' />
       <Ctav5 isBg='' />
+      <Testimonial isBg='yes' />
     </>  
   );
 }

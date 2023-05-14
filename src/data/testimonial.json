@@ -1,0 +1,43 @@
+{
+  "testimonial": {
+    "title": "What people said about my books",
+    "subtitle": "TESTIMONIALS",
+    "testimonialItem": [
+      {
+        "id": 1,
+        "name": "Brightlight books",
+        "title": "Ubold Customer",
+        "image": "./assets/images/user-2.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus quas incidunt, voluptatem repellat ad. Obcaecati odit tenetur enim eos."
+      },
+      {
+        "id": 2,
+        "name": "Brightlight books",
+        "title": "Ubold Customer",
+        "image": "./assets/images/user-1.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus quas incidunt, voluptatem repellat ad. Obcaecati odit tenetur enim eos."
+      },
+      {
+        "id": 3,
+        "name": "Brightlight books",
+        "title": "Ubold Customer",
+        "image": "./assets/images/user-2.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus quas incidunt, voluptatem repellat ad. Obcaecati odit tenetur enim eos."
+      },
+      {
+        "id": 4,
+        "name": "Brightlight books",
+        "title": "Ubold Customer",
+        "image": "./assets/images/user-1.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus quas incidunt, voluptatem repellat ad. Obcaecati odit tenetur enim eos."
+      },
+      {
+        "id": 5,
+        "name": "Brightlight books",
+        "title": "Ubold Customer",
+        "image": "./assets/images/user-2.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ducimus quas incidunt, voluptatem repellat ad. Obcaecati odit tenetur enim eos."
+      }
+    ]
+  }
+}
