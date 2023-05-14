@@ -11,6 +11,7 @@ import Funfacts from '../fun-fact'
 import Books from '../books'
 import Ctav5 from '../ctav5'
 import Testimonial from '../testimonial'
+import Ctav4 from '../ctav4'
 
 const MainPage = ({ header }) => { 
 
@@ -28,6 +29,7 @@ const MainPage = ({ header }) => {
       <Books isBg='yes' />
       <Ctav5 isBg='' />
       <Testimonial isBg='yes' />
+      <Ctav4 isBg='' />
     </>  
   );
 }

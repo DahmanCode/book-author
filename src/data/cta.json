@@ -1,4 +1,12 @@
 {
+  "ctav4": {
+    "backgroundImage": "assets/images/ctav4.jpg",
+    "title": "Watch the video",
+    "subtitle": "to see how our readers love it",
+    "text": "Still have any doubts? Check the free chapter to get an idea.",
+    "btnText": "Free chapters",
+    "videoURL": "https://www.youtube.com/watch?v=ksImBkJNQt8"
+  },
   "ctav5": {
     "backgroundImage": "assets/images/ctav5.jpg",
     "title": "The book has 5900+ readers",
