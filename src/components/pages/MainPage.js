@@ -12,6 +12,7 @@ import Books from '../books'
 import Ctav5 from '../ctav5'
 import Testimonial from '../testimonial'
 import Ctav4 from '../ctav4'
+import Contact from '../contact'
 
 const MainPage = ({ header }) => { 
 
@@ -30,6 +31,7 @@ const MainPage = ({ header }) => {
       <Ctav5 isBg='' />
       <Testimonial isBg='yes' />
       <Ctav4 isBg='' />
+      <Contact isBg='' />
     </>  
   );
 }

@@ -1,0 +1,87 @@
+.contant-form-box {
+  padding: 40px;
+  background-color: #f5ebe6;
+}
+
+@media only screen and (max-width: 991px) {
+  .contant-form-box {
+    padding: 20px;
+  }
+}
+
+.contant-form-box form {
+  text-align: center;
+}
+
+.contant-form-box input,
+.contant-form-box textarea {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-bottom: 2px solid transparent;
+}
+
+.contant-form-box input:focus,
+.contant-form-box textarea:focus {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #c27b7f;
+}
+
+.contant-form-box textarea {
+  min-height: 120px;
+  transition: all .3s ease-in-out;
+}
+
+.contact__address {
+  height: 100%;
+  background-color: #f5ebe6;
+}
+
+.contact__address iframe {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.contact__address__content {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact__address__content li {
+  margin-bottom: 30px;
+}
+
+.contact__address__content li a {
+  display: block;
+  color: #876585;
+}
+
+.contact__address__content li a:hover {
+  color: #c27b7f;
+}
+
+.contact__address__content li span {
+  font-weight: 700;
+  font-family: "philosopher", sans-serif;
+  display: block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.bg-one .contant-form-box {
+  background-color: white;
+}
+
+.bg-one .contant-form-box input,
+.bg-one .contant-form-box textarea {
+  background-color: #f5ebe6;
+}
+
+.bg-one .contact__address {
+  background-color: white;
+}

@@ -1,0 +1,15 @@
+{
+  "contact": {
+    "title": "Write me anything",
+    "subtitle": "CONTACT",
+    "btnText": "Send Now",
+    "address": "ADDRESS",
+    "addressText1": "16, Lankaway",
+    "addressText2": "Florida, USA 99524",
+    "phone": "PHONE",
+    "number": "112 444 9865",
+    "email": "EMAIL",
+    "emailText": "support@support.com",
+    "socialTitle": "Contact book socials"
+  }
+}
