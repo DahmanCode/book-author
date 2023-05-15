@@ -1,0 +1,40 @@
+{
+  "footer": {
+    "name": "Abderrahman Elaammari",
+    "icon": "assets/icons/heart.svg",
+    "menu": [
+      {
+        "link": "hero",
+        "title": "Home"
+      },
+      {
+        "link": "benefits",
+        "title": "Benefits"
+      },
+      {
+        "link": "chapters",
+        "title": "Chapters"
+      },
+      {
+        "link": "pricing",
+        "title": "Pricing"
+      },
+      {
+        "link": "authoer",
+        "title": "Authoer"
+      },
+      {
+        "link": "achievement",
+        "title": "Achievement"
+      },
+      {
+        "link": "reviews",
+        "title": "Reviews"
+      },
+      {
+        "link": "contact",
+        "title": "Contact"
+      }
+    ]
+  }
+}

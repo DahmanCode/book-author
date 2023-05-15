@@ -7,6 +7,7 @@ import AOS from "aos";
 import { useEffect } from "react";
 import './assets/css/aos.css';
 import headerData from './data/header.json'
+import footerData from './data/footer.json'
 
 function ScrollToTop () {
   const { pathname } = useLocation();
@@ -20,6 +21,7 @@ function ScrollToTop () {
 
 function App() {  
   const { header } = headerData;
+  const { footer } = footerData;
 
   useEffect(() => {
     AOS.init();
@@ -31,7 +33,7 @@ function App() {
       <BrowserRouter>
         <ScrollToTop/>
         <Routes>
-          <Route path="/" element={<MainPage header={header} />} />
+          <Route path="/" element={<MainPage header={header} footer={footer} />} />
         </Routes>
       </BrowserRouter>
     </div>

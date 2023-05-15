@@ -1,4 +1,10 @@
 {
+  "ctav3": {
+    "title1": "Do you have a question?",
+    "title2": "Feel free to contact me.",
+    "number": "+61 (0) 111 222 333",
+    "btnText": "Send me a message"
+  },
   "ctav4": {
     "backgroundImage": "assets/images/ctav4.jpg",
     "title": "Watch the video",

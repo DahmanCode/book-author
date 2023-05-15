@@ -13,8 +13,10 @@ import Ctav5 from '../ctav5'
 import Testimonial from '../testimonial'
 import Ctav4 from '../ctav4'
 import Contact from '../contact'
+import Footer from '../global/footer'
 
-const MainPage = ({ header }) => { 
+const MainPage = ({ header, footer }) => { 
+  const { menu } = footer
 
   return (
     <>
@@ -32,6 +34,7 @@ const MainPage = ({ header }) => {
       <Testimonial isBg='yes' />
       <Ctav4 isBg='' />
       <Contact isBg='' />
+      <Footer isBg='yes' menu={menu} />
     </>  
   );
 }
